@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="net.httpletters_archive.simplesporttimer.fragments.SplashFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/picture_margin"
+        android:layout_marginStart="@dimen/picture_margin"
+        android:layout_marginEnd="@dimen/picture_margin"
+        android:layout_marginRight="@dimen/picture_margin"
+        android:src="@drawable/hourglass"
+        android:layout_gravity="center"/>
+
+</FrameLayout>
